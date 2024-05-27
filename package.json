@@ -1,0 +1,25 @@
+{
+  "name": "data-structures-and-algorithms",
+  "description": "Deta Structures and Algorithms",
+  "main": ".",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngkhang/data-structures-and-algorithms.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "javascript"
+  ],
+  "author": "Khang Nguyen",
+  "homepage": "https://github.com/ngkhang/data-structures-and-algorithms#readme",
+  "scripts": {
+    "test": "vitest --coverage",
+    "test:ui": "vitest --ui --api 1337"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.5.2",
+    "@vitest/ui": "^1.5.2",
+    "vitest": "^1.5.2"
+  }
+}
